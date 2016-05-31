@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="res/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="res/dashboard.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    
+<!-- <script src="js/jquery.min.js"></script> -->
+<link href="style/www16csscom.css" rel="stylesheet"  />
+ <script src="js/showList.js" ></script> 
+ <script src="js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+      
+      
+      
+      
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">purchase-sales-stock management system</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+      
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+         
+             <div class="operate">
+        <h3> 进销存管理系统 </h3>
+        <ul id="juheweb">
+          <li >
+            <h4 >人员管理</h4>
+            <div class="list-item none">
+              <p><a href="sale/information_correct.jsp" target="mainframe">基本信息采集 </a></p>
+              <p><a href="showlist.action" target="mainframe">工资管理</a></p>
+            </div>
+          </li>
+          <li >
+            <h4 >订单管理</h4>
+            <div class="list-item none">
+              <p><a href="sale/client_manage.html" target="mainframe">客户管理</a></p>
+              <p><a href="sale/baimian_order.html" target="mainframe">白棉订单</a></p>
+              <p><a href="sale/hangmian_order.html"target="mainframe">绗棉订单</a></p>
+              <p><a href="sale/process_card.html" target="mainframe">白棉生产工艺卡</a></p>
+              <p><a href="sale/evaluate_table.html" target="mainframe">产能评估表</a></p>
+              <p><a href="sale/juanchang_adjust_table.html" target="mainframe">白棉卷长调整表</a></p>
+            </div>
+          </li>
+          <li >
+            <h4> 原材料管理</h4>
+            <div class="list-item none">
+              <p><a href="sale/chemicalfible_income.jsp" target="mainframe">化纤入库单</a></p>
+              <p><a href="sale/chemicalfible_outcome.jsp" target="mainframe">化纤出库单</a></p>
+              <p><a href="sale/glue_income.jsp" target="mainframe">胶水入库单</a></p>
+              <p><a href="sale/glue_outcome.jsp" target="mainframe">胶水出库单</a></p>
+              <p><a href="sale/incoming_table.jsp" target="mainframe">来料单</a></p>
+              <p><a href="sale/cloth_income.jsp" target="mainframe">布料入库</a></p>
+              <p><a href="sale/cloth_outcome.jsp" target="mainframe">布料出库</a></p>
+              <p><a href="sale/cloth_return.jsp" target="mainframe">布料退料单</a></p>
+              <p><a href="sale/in-out_stock.jsp" target="mainframe">出入库表</a></p>
+              <p><a href="sale/material_inventory.jsp" target="mainframe">白棉盘存表</a></p>
+              <p><a href="sale/operation_manage.jsp" target="mainframe">生产管控</a></p>
+              <p><a href="sale/hangmian_employee_output.jsp" target="mainframe">绗棉车间员工产量表</a></p>
+           </div>
+          </li>
+          <li >
+            <h4 >产品管理</h4>
+            <div class="list-item none">
+              <p><a href="sale/baimian_income.jsp" target="mainframe">白棉入库</a></p>
+              <p><a href="sale/baimian_outcome.jsp" target="mainframe">白棉出库</a></p>
+              <p><a href="sale/hangmian_income.jsp" target="mainframe">绗棉入库</a></p>
+              <p><a href="sale/hangmian_outcome.jsp" target="mainframe">绗棉出库</a></p>
+              <p><a href="sale/shipment_notice.jsp" target="mainframe">发货通知单</a></p>
+              <p><a href="sale/delivery_notice.jsp" target="mainframe">送货单</a></p>
+              <p><a href="sale/return_goods.jsp" target="mainframe">退货</a></p>
+            </div>
+          </li>
+        <li>
+          <h4>账款管理</h4>
+          <div class="list-item none">
+             <p><a href="sale/payable_account.jsp" target="mainframe">应付账款</a></p>
+              <p><a href="sale/receivable_account.jsp" target="mainframe">应收账款</a></p>
+          </div>
+        </li>
+       <li >
+            <h4 >账号管理</h4>
+            <div class="list-item none">
+              <p><a href="sale/add_acount.jsp" target="mainframe">添加账户</a></p>
+              <p><a href="show_list.action" target="mainframe">查看用户列表</a></p>
+            </div>
+          </li>
+ 
+        
+        </ul>
+        
+        <script type="text/javascript" language="javascript">
+			navList(12);
+		</script>
+      </div>
+
+        </div>
+          
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+  <br/>
+    <br/>
+     <br/>
+<div class="jumbotron">
+   
+    <center><h2>The purchase-sales-stock management system</h2></center>
+</div>
+            
+   <iframe name="mainframe"  height="1920px" width="100%" frameborder="0"  allowtransparency="true">
+   
+   
+  
+   </iframe>
+ 
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+   
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

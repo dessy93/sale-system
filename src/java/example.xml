@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<constant name="struts.devMode" value="true" />
+   
+     <package name="com" namespace="/" extends="struts-default">
+    <action name="login" class="com.UserAction" method="login">
+    <result name="loginout">/error.jsp</result>
+    <result name="loginin">/index.html</result>
+    </action>
+    
+    <action name="regist" class="com.UserAction" method="regist">
+    <result name="error">/regist_error.jsp</result>
+    <result name="success">/regist_success.jsp</result>
+    </action>
+    
+      <action name="show_list" class="com.UserAction" method="showlist">
+    <result name="success">/sale/user_list.jsp</result>
+    </action>
+
+    
+    <action name="stock_manage">
+        <result>/sale/stock_manage.jsp</result>
+    </action> 
+    
+      <action name="show_manage" class="com.ManageAction" method="salary_manage">
+   <result name="success">/sale/salary_manage.jsp</result>
+    </action>
+    
+    <action name="showlist" class="com.ManageAction" method="showlist">
+   <result name="success">/sale/salary_manage.jsp</result>
+    </action>
+    
+     <action name="delete" class="com.ManageAction" method="delete">
+   <result name="success">/sale/salary_manage.jsp</result>
+    </action>
+     
+     
+    </package>
+   
+
+    
+ </struts>
+
