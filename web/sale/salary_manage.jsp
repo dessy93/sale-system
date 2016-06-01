@@ -9,6 +9,17 @@
          <!--<link href="../res/bootstrap.min.css" rel="stylesheet">-->
     </head>
     <body>
+        
+        <form method="post" action="upload_manage.action" enctype="multipart/form-data">
+   <h4 class="modal-title" id="myModalLabel">请选择Excel文件</h4> 
+  <input type="text" size="20" name="upfile" id="upfile" style="border:1px dotted #ccc"> 
+  <input type="button" value="浏览" onclick="path.click()" style="border:1px solid #ccc;background:#fff">
+  <input type="file" id="path" style="display:none" onchange="upfile.value=this.value" name="filename">
+
+<button type="submit" class="btn btn-default"> 上传</button>
+</form>
+    <hr/>
+    
 
       <form role="form" action="show_manage.action" method="post" >
 
@@ -21,7 +32,7 @@
                   <th>岗位工资</th>
                    <th>工龄工资</th>
                   <th>加班</th>
-                  <th>全勤奖­</th>
+                  <th>全勤奖</th>
                   <th>高温补贴</th>                 
                   <th>话费补贴</th>
                 </tr>
@@ -46,7 +57,9 @@
          
 
         </form>
-        
+    
+      <hr/>  
+      
       <form role="form" action="delete.action" method="post" >
 
  <div class="table-responsive">
@@ -91,7 +104,7 @@
             
         <button type="submit" class="btn btn-default">删除选择</button>       
              </form>
-        
+         <s:debug></s:debug>
         </body>
         </html>
 

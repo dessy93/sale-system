@@ -9,10 +9,11 @@ and open the template in the editor.
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ --> 
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    
 
     <title>Dashboard Template for Bootstrap</title>
 
@@ -70,38 +71,41 @@ and open the template in the editor.
           <li >
             <h4 >人员管理</h4>
             <div class="list-item none">
-              <p><a href="sale/information_correct.jsp" target="mainframe">基本信息采集 </a></p>
+              <p><a href="show_I_C.action" target="mainframe">基本信息采集 </a></p>
               <p><a href="showlist.action" target="mainframe">工资管理</a></p>
             </div>
           </li>
           <li >
             <h4 >订单管理</h4>
             <div class="list-item none">
-              <p><a href="sale/client_manage.html" target="mainframe">客户管理</a></p>
-              <p><a href="sale/baimian_order.html" target="mainframe">白棉订单</a></p>
-              <p><a href="sale/hangmian_order.html"target="mainframe">绗棉订单</a></p>
-              <p><a href="sale/process_card.html" target="mainframe">白棉生产工艺卡</a></p>
-              <p><a href="sale/evaluate_table.html" target="mainframe">产能评估表</a></p>
-              <p><a href="sale/juanchang_adjust_table.html" target="mainframe">白棉卷长调整表</a></p>
+              <p><a href="sale/client_manage.jsp" target="mainframe">客户管理</a></p>
+              <p><a href="sale/baimian_order.jsp" target="mainframe">白棉订单</a></p>
+              <p><a href="sale/hangmian_order.jsp"target="mainframe">绗棉订单</a></p>
+              <p><a href="sale/process_card.jsp" target="mainframe">白棉生产工艺卡</a></p>
+              <p><a href="sale/evaluate_table.jsp" target="mainframe">产能评估表</a></p>
+              <p><a href="sale/juanchang_adjust_table.jsp" target="mainframe">白棉卷长调整表</a></p>
             </div>
           </li>
           <li >
-            <h4> 原材料管理</h4>
+              <h4> 原材料管理</h4>
             <div class="list-item none">
-              <p><a href="sale/chemicalfible_income.jsp" target="mainframe">化纤入库单</a></p>
-              <p><a href="sale/chemicalfible_outcome.jsp" target="mainframe">化纤出库单</a></p>
-              <p><a href="sale/glue_income.jsp" target="mainframe">胶水入库单</a></p>
-              <p><a href="sale/glue_outcome.jsp" target="mainframe">胶水出库单</a></p>
+              <p><a href="sale/chemicalfible_in_out.jsp" target="mainframe">化纤出入库</a></p>
+              <p><a href="sale/glue_in_out.jsp"  target="mainframe">胶水出入库</a></p>
+              <p><a href="sale/cloth_in_out.jsp" target="mainframe">布料出入库</a></p>
               <p><a href="sale/incoming_table.jsp" target="mainframe">来料单</a></p>
-              <p><a href="sale/cloth_income.jsp" target="mainframe">布料入库</a></p>
-              <p><a href="sale/cloth_outcome.jsp" target="mainframe">布料出库</a></p>
               <p><a href="sale/cloth_return.jsp" target="mainframe">布料退料单</a></p>
-              <p><a href="sale/in-out_stock.jsp" target="mainframe">出入库表</a></p>
               <p><a href="sale/material_inventory.jsp" target="mainframe">白棉盘存表</a></p>
-              <p><a href="sale/operation_manage.jsp" target="mainframe">生产管控</a></p>
-              <p><a href="sale/hangmian_employee_output.jsp" target="mainframe">绗棉车间员工产量表</a></p>
            </div>
           </li>
+          <li>
+            <h4>生产管控</h4>
+            <div class="list-item none">
+            <p><a href="" target="mainframe">白棉生产日报</a></p>
+              <p><a href="sale/hangmian_employee_output.jsp" target="mainframe">绗棉车间员工产量表</a></p>
+            </div>
+          </li>
+          
+          
           <li >
             <h4 >产品管理</h4>
             <div class="list-item none">
@@ -134,7 +138,7 @@ and open the template in the editor.
         
         <script type="text/javascript" language="javascript">
 			navList(12);
-		</script>
+        </script>
       </div>
 
         </div>

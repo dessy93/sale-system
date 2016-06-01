@@ -38,6 +38,28 @@
      <action name="delete" class="com.ManageAction" method="delete">
    <result name="success">/sale/salary_manage.jsp</result>
     </action>
+    
+ <action name="upload_manage" class="com.ManageAction" method="upload">
+   <result name="success">/sale/salary_manage.jsp</result>
+    </action>
+
+    
+    <action name="man_manage" class="com.I_CAction" method="man_manage">
+   <result name="success">/sale/information_correct.jsp</result>
+    </action>
+    
+    <action name="show_I_C" class="com.I_CAction" method="showlist">
+   <result name="success">/sale/information_correct.jsp</result>
+    </action>
+    
+    <action name="delete_I_C" class="com.I_CAction" method="delete">
+   <result name="success">/sale/information_correct.jsp</result>
+    </action>
+    
+     <action name="upload_I_C" class="com.I_CAction" method="upload">
+   <result name="success">/sale/information_correct.jsp</result>
+    </action>
+    
      
      
     </package>
